@@ -34,13 +34,13 @@ Hugo embed-pdf can be installed in two ways.
 1. Add this shortcode as a Git submodule
 
 ```shell
-git submodule add  https://github.com/anvithks/hugo-embed-pdf-shortcode.git themes/hugo-embed-pdf-shortcode
+git submodule add  https://github.com/bhacha/hugo-embed-pdf-shortcode.git themes/hacha-embed-pdf-shortcode
 ```
 
 2. Edit `config.toml` as follows
 
 ```
-theme = ["hugo-embed-pdf-shortcode", "YourCurrentTheme"]
+theme = ["hacha-embed-pdf-shortcode", "YourCurrentTheme"]
 enableInlineShortcodes = true
 ```
 
@@ -54,8 +54,8 @@ enableInlineShortcodes = true
 <br />
 
 ```shell
-git clone https://github.com/anvithks/hugo-embed-pdf-shortcode.git
-cd hugo-embed-pdf-shortcode
+git clone https://github.com/bhacha/hugo-embed-pdf-shortcode.git
+cd hacha-embed-pdf-shortcode
 ```
 
 2. Copy the file `./layouts/shortcodes/embed-pdf.html` to  `./layouts/shortcodes` in your Hugo website directory.  
